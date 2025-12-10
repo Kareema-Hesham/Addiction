@@ -1,64 +1,133 @@
-﻿# Supply-Chain-Dataset-Analysis
+# The impact of wars on the structure of society
 
- ------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 📌 Dataset Overview
+# 📝 Overview
 
 ```
-This dataset contains structured tabular data stored in CSV format.
-It includes both textual and numerical values related to employees.
+This project presents a comprehensive Power BI analytical dashboard that explores the multidimensional impacts of armed conflict on four regions: Syria, Ukraine, Sudan, and Gaza.
+The dataset highlights how war disrupts economic stability, food systems, education, and healthcare services — providing policymakers, researchers, and humanitarian actors with insights driven by real data.
+The goal of this dashboard is to make complex crisis data simple, visual, and actionable.
 ```
 
-------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 📂 File Information
+# 🎯 Objectives
 
-File name: `d6f55e0b-e74e-4a77-a541-3b6282f2dda9.csv`
+```
+Analyze and visualize the scale and trends of war-related disruptions.
 
-File type: `CSV (Comma Separated Values)`
+Compare the four regions across key humanitarian indicators.
 
-Encoding: `UTF-8`
+Identify patterns that can support data-driven decision-making.
 
-------------------------------------------------------------------
-# 🧾 Columns Description
+Provide an interactive tool for exploring the severity and distribution of war impacts.
+```
 
-Each row represents an employee record.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Columns include:
+# 📂 Dataset Description
 
-Employee ID → unique identifier for each employee.
+The dataset includes structured data reflecting the consequences of war in four key sectors:
 
-Name → full employee name.
+1. Economy
+```
+GDP fluctuations
 
-Department → department the employee belongs to.
+Damage to infrastructure
 
-Position/Job Title → job role of the employee.
+Rising unemployment
 
-Salary → numeric field (monthly/annual salary).
+Inflation indicators (when available)
+```
 
-Date of Hire → employment start date.
+2. Food Security
+```
+Food prices
 
-(Additional fields may exist depending on the dataset).
+Supply chain disruptions
 
-------------------------------------------------------------------
+Access to essential goods
 
-# 🛠 Usage
+Reported food shortages
+```
 
-This dataset can be used for:
+3. Education
+```
+Number of damaged schools
 
-Data Cleaning & Preprocessing (handling missing values, formatting text, correcting errors).
+Access to schooling
 
-Employee Analysis (salary distribution, department analysis, tenure tracking).
+Student displacement
 
-Visualization (dashboards, charts).
+Education system functionality
+```
 
-------------------------------------------------------------------
+4. Health
+```
+Hospital damage reports
 
-# 📊 Example Applications
+Access to medical services
 
-Creating HR dashboards (Excel / Power BI).
+Availability of medicines
 
-Running salary statistics or department-level analysis.
+Casualty and injury trends (non-sensitive aggregated data)
+```
 
-Preparing data for machine learning models (attrition prediction, salary forecasting).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# 📊 Dashboard Features
+
+Interactive slicers by country, year, and sector
+
+Comparative visuals showing cross-country differences
+
+Trend charts across years
+
+KPIs summarizing major indicators
+
+Maps highlighting geographic impact areas
+
+Bar, line, and donut charts for clarity and insight
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🛠️ Tools & Technologies
+
+Power BI Desktop – Data modeling and dashboard design
+
+Power Query – Data cleaning & transformation
+
+DAX Measures – KPI calculations
+
+GitHub – Version control and project sharing
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🔍 Key Insights (Examples)
+
+Education and health sectors show the highest levels of infrastructure damage across all regions.
+
+Sudan and Syria exhibit prolonged economic decline, while Ukraine shows sharp post-invasion shocks.
+
+Gaza records the highest levels of disruption in food access due to blockade and conflict escalation.
+
+(These insights can be updated based on your actual data.)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🌍 Why This Project Matters
+
+Understanding the human, economic, and social cost of war is essential for:
+
+Humanitarian planning
+
+Donor allocation
+
+Recovery strategies
+
+Academic research
+
+Raising awareness through transparent data visualization
+
+This dashboard transforms raw conflict data into clear, visual stories that highlight urgent needs and long-term challenges.
